@@ -32,6 +32,16 @@ $idUsuario = $_SESSION['id_usuario'];
 	<?php } ?>
 	
 	<a href="logout.php">Cerrar Sesi&oacute;n</a>
+
+
+	<?php if($_SESSION['tipo_usuario']==2) { ?>
+	
+	<a href="jurado.php">Ver Proyecto</a>
+	<br />
+	<?php } ?>
+	
+
+	
 	
 	</body>
 		
