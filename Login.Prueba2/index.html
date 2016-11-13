@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+
+<HTML>
+	<link rel="stylesheet" type="text/css" href="">
+	<META chrset="uft-8">
+	<BODY>
+		<?php
+		{if isset($error)}
+		($error) 
+		{/if}
+		?>
+		<form action="index.php?modo=login" method="POST">
+		<LABEL>Usuario</LABEL>
+        <input type="text" name="user"></input>
+		<LABEL>Contrase&ntilde;a</LABEL>
+		<input type="password" name="pass"></input>
+		<input type="hidden" name="login" value="1"></input>
+		<input type="submit" value="Iniciar sesion">
+</form>
+	</BODY>
+</HTML>
